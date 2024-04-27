@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins-Light";
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/fundo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  margin-top: 5%;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.container .left {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid;
+  text-align: center;
+  color: white;
+}
+.container .left .teste1 {
+  height: 20%;
+  width: 80%;
+  border: 1px solid;
+  margin: 2% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 105, 160);
+  background: rgba(6, 76, 113, 0.445);
+  box-shadow: 0 8px 32px 0 rgba(2, 119, 172, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+}
+.container .left .teste1 h2 {
+  transition: 0.5s;
+}
+.container .left .teste1 h2:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.container .left .teste2 {
+  height: 30%;
+  width: 80%;
+  border: 1px solid;
+  margin: 2% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 105, 160);
+  background: rgba(6, 76, 113, 0.445);
+  box-shadow: 0 8px 32px 0 rgba(2, 119, 172, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  color: rgba(255, 255, 255, 0.575);
+}
+.container .left .teste2:hover {
+  transition: 0.5s;
+  box-shadow: 0 8px 32px 0 rgba(2, 119, 172, 0.37);
+  border: 1px solid rgba(0, 125, 184, 0.63);
+}
+.container .left .teste3 {
+  height: 25%;
+  width: 80%;
+  border: 1px solid;
+  margin: 2% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 105, 160);
+  background: rgba(6, 76, 113, 0.445);
+  box-shadow: 0 8px 32px 0 rgba(2, 119, 172, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+}
+.container .left .teste3 a {
+  color: aliceblue;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 1%;
+  transition: 0.5s;
+}
+.container .left .teste3 a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: rgb(3, 105, 160);
+  background: rgba(6, 76, 113, 0.445);
+  box-shadow: 0 8px 32px 0 rgba(2, 119, 172, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  color: rgb(2, 161, 172);
+  border: 1px solid rgba(2, 118, 172, 0.774);
+}
+.container .right {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(3, 105, 160);
+  background: rgba(0, 85, 131, 0.637);
+  box-shadow: 0 8px 32px 0 rgba(2, 119, 172, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+}
+.container .right img {
+  width: 400px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.container .right img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 0 8px 32px 0 rgba(2, 119, 172, 0.37);
+  border: 1px solid rgba(0, 125, 184, 0.63);
+}
+
+/* #region footer  */
+footer {
+  text-align: center;
+  height: 4em;
+  background-color: rgba(3, 55, 73, 0.8156862745);
+  background: rgba(3, 55, 73, 0.8745098039);
+  box-shadow: 0 8px 32px 0 rgba(3, 55, 73, 0.4745098039);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  color: ghostwhite;
+}
+
+.footer ul {
+  padding-top: 20px;
+}
+
+.footer ul a {
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 99;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  position: fixed;
+  z-index: 999;
+}
+
+.footer ul a:hover {
+  background-color: #00a93e;
+  transition: 0.5s;
+}
+
+/* #endregion *//*# sourceMappingURL=index.css.map */
